@@ -40,7 +40,7 @@ export default function Home() {
           {(tab === "home") ? (
             <div>
               <h1 className="font-mono text-4xl pb-12">SF Product Gals 👋</h1>
-              <p className="tracking-widest font-light text-xl w-1/2 leading-8">150+ young womxn in product roles at tech companies, from the Bay Area and beyond. We’re here to build community, serendipitous friendships, and space for collaborative idea exploration. </p>
+              <p className="tracking-widest font-light text-xl w-1/2 leading-8">150+ young womxn in product roles at tech companies, from the Bay Area and beyond. We’re here to build community, serendipitous friendships, and space for collaborative idea exploration. </p>
               <p className="py-10 font-light text-xl w-1/2 tracking-widest leading-8	">Join our texting list to get involved, attend our events, and meet fellow womxn!</p>
 
 
@@ -64,9 +64,9 @@ export default function Home() {
           ) : (tab === "about") ? (
             <div className="">
               <h1 className="text-4xl pb-12 font-mono">About us</h1>
-              <p className="tracking-widest font-light text-xl w-1/2 leading-8">As young women working in product in SF, we quickly realized that we were in the minority, often feeling the absence of female mentors and leaders, space to discuss challenges and questions, and feeling often overwhelmed or lonely at times. </p>
-              <p className="py-10 tracking-widest font-light text-xl w-1/2 leading-8">Inspired, we brought together small groups of women product leaders and founders, and saw a budding need for not only community, but curated, shared experiences and third spaces for friendships, inspirations, and shared ambitions. That was how Product Gals was born. </p>
-              <p className="tracking-widest font-light text-xl w-1/2 leading-8">Our community and events will provide this bridge between close, fun friendships and inspirational, ambitious career catalysts. From opportunities to get to know one another and bonding, to sharing stories, we’ll reimagine how to empower womxn in our spaces, together. </p>
+              <p className="tracking-widest font-light text-xl w-1/2 leading-8">As young women working in product in SF, we quickly realized that we were in the minority, often feeling the absence of female mentors and leaders, space to discuss challenges and questions, and feeling often overwhelmed or lonely at times. </p>
+              <p className="py-10 tracking-widest font-light text-xl w-1/2 leading-8">Inspired, we brought together small groups of women product leaders and founders, and saw a budding need for not only community, but curated, shared experiences and third spaces for friendships, inspirations, and shared ambitions. That was how Product Gals was born. </p>
+              <p className="tracking-widest font-light text-xl w-1/2 leading-8">Our community and events will provide this bridge between close, fun friendships and inspirational, ambitious career catalysts. From opportunities to get to know one another and bonding, to sharing stories, we’ll reimagine how to empower womxn in our spaces, together. </p>
 
             </div>
           ) : (tab === "events") ? (
