@@ -40,7 +40,7 @@ export default function Home() {
           {(tab === "home") ? (
             <div>
               <h1 className="font-mono text-4xl pb-12">SF Product Gals 👋</h1>
-              <p className="tracking-widest font-light text-xl w-1/2 leading-8">150+ young womxn in product roles at tech companies, from the Bay Area and beyond. We’re here to build community, serendipitous friendships, and space for collaborative idea exploration.  </p>
+              <p className="tracking-widest font-light text-xl w-1/2 leading-8">150+ young womxn in product roles at tech companies, from the Bay Area and beyond. We’re here to build community, serendipitous friendships, and space for collaborative idea exploration. </p>
               <p className="py-10 font-light text-xl w-1/2 tracking-widest leading-8	">Join our texting list to get involved, attend our events, and meet fellow womxn!</p>
 
 
