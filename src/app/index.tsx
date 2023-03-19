@@ -69,19 +69,7 @@ const [tab, setTab] = useState("home");
                <p className ="tracking-widest font-light text-xl w-1/2 leading-8">Our community and events will provide this bridge between close, fun friendships and inspirational, ambitious career catalysts. From opportunities to get to know one another and bonding, to sharing stories, we’ll reimagine how to empower womxn in our spaces, together. </p>
 
               </div>
-          ) : (tab === "events") ? (
-            <div className = "">
-               <>
-                    {events.map(d => (
-                        <Event
-                            name={d.name}
-                            description={d.description}
-                            date={d.date}
-                            />
-                    ))}
-                    </>
-              </div>
-          ) : (tab === "love") ? (
+          )  : (tab === "love") ? (
             <div className = "text-center">
                <h1 className = "text-4xl pb-12 font-mono">We love you all ❤️</h1>
                
